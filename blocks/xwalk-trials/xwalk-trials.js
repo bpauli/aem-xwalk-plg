@@ -458,7 +458,7 @@ function buildForm() {
         showSuccessMessage(form);
       } else {
         const err = await response.json();
-        throw new Error(err.error || 'There was an error submitting your request. Please try again.')
+        throw new Error(err.error ? `${err.error}\nThere was an error submitting your request. Please try again.` : 'There was an error submitting your request. Please try again.')
       }
     })
     .catch(error => {
