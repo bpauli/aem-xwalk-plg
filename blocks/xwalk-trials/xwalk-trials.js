@@ -427,10 +427,10 @@ function buildForm() {
     verInput.value = 'v2';
     v2container.style.display = 'block';
     if (!v2Rendered) {
-      grecaptcha.render('recaptcha-v2', {
+      grecaptcha.render('recaptcha-v2', { 
         sitekey: V2_SITE_KEY,
         callback: (token) => {
-          tokenInput.value = token;
+          recaptchaField.value = token;
           form.submit();    // now re-submit, bypassing v3
         }
       });
