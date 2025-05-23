@@ -1,7 +1,7 @@
 import { createOptimizedPicture } from '../../scripts/lib-franklin.js';
 import createTag from '../../utils/tag.js';
 
-const V3_SITE_KEY = '6LfiKDErAAAAAK_RgBahms-QPJyErQTRElVCprpu';
+const V3_SITE_KEY = '6LfiKDErAAAAAK_RgBahms-QPJyErQTRElVCprpx';
 const V2_SITE_KEY = '6Le1IkYrAAAAAFKLFRoLHFm2XXBCl5c8iiiWHoxf';
 
 /**
